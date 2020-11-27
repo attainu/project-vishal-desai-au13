@@ -17,14 +17,14 @@ class Menu:
         print()
 
     def operations(self):
-        print("To create parking lot, press 1")
-        print("To park your car, press 2")
-        print("To leave your car occupied slot, press 3")
-        print("To know the status of the parking lot press 4")
-        print("To get the registration numbers of particular color press 5")
-        print("To get the slot numbers of particular color, press 6")
-        print("To get the slot number of particular registration number, press 7")
-        print("To go exit, press 0")
+        print("To create parking lot, press :- 1")
+        print("To park your car, press :- 2")
+        print("To leave your car occupied slot, press :- 3")
+        print("To know the status of the parking lot press :- 4")
+        print("To get the registration numbers of particular color press :- 5")
+        print("To get the slot numbers of particular color, press :- 6")
+        print("To get the slot number of particular registration number, press :- 7")
+        print("To go exit, press :- 0")
 
     def operations_Handler(self):
         parkingLot = Parking_Lot()
